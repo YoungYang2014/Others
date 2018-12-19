@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{00273d1e-e415-47c9-8902-67f5f2672a7b}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>dxMain.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Config.ini" />
+    <Content Include="Imag\arrowBottom.png" />
+    <Content Include="Imag\arrowLeft.png" />
+    <Content Include="Imag\arrowRight.png" />
+    <Content Include="Imag\arrowTop.png" />
+    <Content Include="Imag\Background2.png" />
+    <Content Include="Imag\bottomArrow.png" />
+    <Content Include="Imag\bottomArrowHover.png" />
+    <Content Include="Imag\calendar.png" />
+    <Content Include="Imag\checkBox.png" />
+    <Content Include="Imag\checkBoxChecked.png" />
+    <Content Include="Imag\checkBoxCheckedHover.png" />
+    <Content Include="Imag\checkBoxCheckedPressed.png" />
+    <Content Include="Imag\checkBoxHover.png" />
+    <Content Include="Imag\checkBoxIndeterminate.png" />
+    <Content Include="Imag\checkBoxIndeterminateHover.png" />
+    <Content Include="Imag\checkBoxIndeterminatePressed.png" />
+    <Content Include="Imag\checkBoxPressed.png" />
+    <Content Include="Imag\close.png" />
+    <Content Include="Imag\closeHover.png" />
+    <Content Include="Imag\closePressed.png" />
+    <Content Include="Imag\delete.png" />
+    <Content Include="Imag\deleteHover.png" />
+    <Content Include="Imag\deletePressed.png" />
+    <Content Include="Imag\downButton.png" />
+    <Content Include="Imag\error.png" />
+    <Content Include="Imag\feedback.png" />
+    <Content Include="Imag\feedbackHover.png" />
+    <Content Include="Imag\feedbackPressed.png" />
+    <Content Include="Imag\icon.ico" />
+    <Content Include="Imag\information.png" />
+    <Content Include="Imag\left.png" />
+    <Content Include="Imag\maximize.png" />
+    <Content Include="Imag\maximizeHover.png" />
+    <Content Include="Imag\maximizePressed.png" />
+    <Content Include="Imag\minimize.png" />
+    <Content Include="Imag\minimizeHover.png" />
+    <Content Include="Imag\minimizePressed.png" />
+    <Content Include="Imag\nscc.png" />
+    <Content Include="Imag\open.png" />
+    <Content Include="Imag\openHover.png" />
+    <Content Include="Imag\openPressed.png" />
+    <Content Include="Imag\progressBar.png" />
+    <Content Include="Imag\progressBarChunk.png" />
+    <Content Include="Imag\question.png" />
+    <Content Include="Imag\radioButton.png" />
+    <Content Include="Imag\radioButtonChecked.png" />
+    <Content Include="Imag\radioButtonCheckedHover.png" />
+    <Content Include="Imag\radioButtonCheckedPressed.png" />
+    <Content Include="Imag\radioButtonHover.png" />
+    <Content Include="Imag\radioButtonPressed.png" />
+    <Content Include="Imag\restore.png" />
+    <Content Include="Imag\restoreHover.png" />
+    <Content Include="Imag\restorePressed.png" />
+    <Content Include="Imag\right.png" />
+    <Content Include="Imag\scan.png" />
+    <Content Include="Imag\Signal.ico" />
+    <Content Include="Imag\sizegrip.png" />
+    <Content Include="Imag\skin.png" />
+    <Content Include="Imag\skinHover.png" />
+    <Content Include="Imag\skinPressed.png" />
+    <Content Include="Imag\success.png" />
+    <Content Include="Imag\topArrow.png" />
+    <Content Include="Imag\topArrowHover.png" />
+    <Content Include="Imag\topback.png" />
+    <Content Include="Imag\transfer.png" />
+    <Content Include="Imag\upButton.png" />
+    <Content Include="Imag\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dxMain.py" />
+    <Compile Include="iclock.py" />
+    <Compile Include="inf_http.py" />
+    <Compile Include="Login_Start.py" />
+    <Compile Include="UI_Login.py" />
+    <Compile Include="UI_Main.py" />
+    <Compile Include="UI_MessageBox.py" />
+    <Compile Include="UI_Register.py" />
+    <Compile Include="UI_Resource_rc.py" />
+    <Compile Include="转换UI.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imag" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

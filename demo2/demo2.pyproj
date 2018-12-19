@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c59e4f4b-fdfa-43cf-9821-189092df6b7e}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>isefon\dxMain.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="isefon\Config.ini" />
+    <Content Include="isefon\Imag\arrowBottom.png" />
+    <Content Include="isefon\Imag\arrowLeft.png" />
+    <Content Include="isefon\Imag\arrowRight.png" />
+    <Content Include="isefon\Imag\arrowTop.png" />
+    <Content Include="isefon\Imag\Background2.png" />
+    <Content Include="isefon\Imag\bottomArrow.png" />
+    <Content Include="isefon\Imag\bottomArrowHover.png" />
+    <Content Include="isefon\Imag\calendar.png" />
+    <Content Include="isefon\Imag\checkBox.png" />
+    <Content Include="isefon\Imag\checkBoxChecked.png" />
+    <Content Include="isefon\Imag\checkBoxCheckedHover.png" />
+    <Content Include="isefon\Imag\checkBoxCheckedPressed.png" />
+    <Content Include="isefon\Imag\checkBoxHover.png" />
+    <Content Include="isefon\Imag\checkBoxIndeterminate.png" />
+    <Content Include="isefon\Imag\checkBoxIndeterminateHover.png" />
+    <Content Include="isefon\Imag\checkBoxIndeterminatePressed.png" />
+    <Content Include="isefon\Imag\checkBoxPressed.png" />
+    <Content Include="isefon\Imag\close.png" />
+    <Content Include="isefon\Imag\closeHover.png" />
+    <Content Include="isefon\Imag\closePressed.png" />
+    <Content Include="isefon\Imag\delete.png" />
+    <Content Include="isefon\Imag\deleteHover.png" />
+    <Content Include="isefon\Imag\deletePressed.png" />
+    <Content Include="isefon\Imag\downButton.png" />
+    <Content Include="isefon\Imag\error.png" />
+    <Content Include="isefon\Imag\feedback.png" />
+    <Content Include="isefon\Imag\feedbackHover.png" />
+    <Content Include="isefon\Imag\feedbackPressed.png" />
+    <Content Include="isefon\Imag\icon.ico" />
+    <Content Include="isefon\Imag\information.png" />
+    <Content Include="isefon\Imag\left.png" />
+    <Content Include="isefon\Imag\maximize.png" />
+    <Content Include="isefon\Imag\maximizeHover.png" />
+    <Content Include="isefon\Imag\maximizePressed.png" />
+    <Content Include="isefon\Imag\minimize.png" />
+    <Content Include="isefon\Imag\minimizeHover.png" />
+    <Content Include="isefon\Imag\minimizePressed.png" />
+    <Content Include="isefon\Imag\nscc.png" />
+    <Content Include="isefon\Imag\open.png" />
+    <Content Include="isefon\Imag\openHover.png" />
+    <Content Include="isefon\Imag\openPressed.png" />
+    <Content Include="isefon\Imag\progressBar.png" />
+    <Content Include="isefon\Imag\progressBarChunk.png" />
+    <Content Include="isefon\Imag\question.png" />
+    <Content Include="isefon\Imag\radioButton.png" />
+    <Content Include="isefon\Imag\radioButtonChecked.png" />
+    <Content Include="isefon\Imag\radioButtonCheckedHover.png" />
+    <Content Include="isefon\Imag\radioButtonCheckedPressed.png" />
+    <Content Include="isefon\Imag\radioButtonHover.png" />
+    <Content Include="isefon\Imag\radioButtonPressed.png" />
+    <Content Include="isefon\Imag\restore.png" />
+    <Content Include="isefon\Imag\restoreHover.png" />
+    <Content Include="isefon\Imag\restorePressed.png" />
+    <Content Include="isefon\Imag\right.png" />
+    <Content Include="isefon\Imag\scan.png" />
+    <Content Include="isefon\Imag\Signal.ico" />
+    <Content Include="isefon\Imag\sizegrip.png" />
+    <Content Include="isefon\Imag\skin.png" />
+    <Content Include="isefon\Imag\skinHover.png" />
+    <Content Include="isefon\Imag\skinPressed.png" />
+    <Content Include="isefon\Imag\success.png" />
+    <Content Include="isefon\Imag\topArrow.png" />
+    <Content Include="isefon\Imag\topArrowHover.png" />
+    <Content Include="isefon\Imag\topback.png" />
+    <Content Include="isefon\Imag\transfer.png" />
+    <Content Include="isefon\Imag\upButton.png" />
+    <Content Include="isefon\Imag\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="isefon\dxMain.py" />
+    <Compile Include="isefon\iclock.py" />
+    <Compile Include="isefon\inf_http.py" />
+    <Compile Include="isefon\Login_Start.py" />
+    <Compile Include="isefon\UI_Login.py" />
+    <Compile Include="isefon\UI_Main.py" />
+    <Compile Include="isefon\UI_MessageBox.py" />
+    <Compile Include="isefon\UI_Register.py" />
+    <Compile Include="isefon\UI_Resource_rc.py" />
+    <Compile Include="isefon\转换UI.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="isefon" />
+    <Folder Include="isefon\Imag" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
